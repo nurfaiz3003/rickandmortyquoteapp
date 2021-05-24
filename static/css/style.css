@@ -1,0 +1,48 @@
+@font-face {
+    font-family: rickAndMorty;
+    src: url("/static/fonts/get_schwifty.ttf");
+}
+
+body {
+    background-image: url("/static/images/rnm.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+}
+
+#wrapper {
+    height: 100vh;
+}
+
+#header-text {
+    font-size: xx-large;
+    font-family: rickAndMorty;
+    color:  #013739;
+    text-shadow: 2px 2px 0px #c9d74c;
+}
+
+#text {
+    font-size: x-large;
+    font-family: rickAndMorty;
+    color: #c9d74c;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+#author {
+    font-size: large;
+    font-family: rickAndMorty;
+    color: #c9d74c;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+#new-quote, #tweet-quote {
+    background-color: #013739;
+    color: #c9d74c;
+    border: 0px;
+    border-radius: 0%;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#and {
+    font-size: medium;
+}

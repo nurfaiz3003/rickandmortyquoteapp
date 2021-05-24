@@ -13,12 +13,18 @@
         <link href="static/css/style.css" rel="stylesheet">
     </head>
     <body>
-        <div id="wrapper">
+        <div id="wrapper" class="container-fluid d-flex justify-content-center align-items-center">
             <div id="quote-box">
-                <div id="text"></div>
-                <div id="author"></div>
-                <a id="tweet-quote" target="_top">Tweet</a>
-                <button id="new-quote">New Quote</button>
+                <div id="header-text" class="text-center mx-5">Rick <span id="and">and</span> Morty</div>
+                <div id="header-text" class="text-center mx-5 mb-5" style="font-size: large; font-family: 'Courier New', Courier, monospace;">Quotes Generator</div>
+                <div id="text" class="text-center mx-5 my-2"></div>
+                <div id="author" class="text-center mb-5"></div>
+                <div class="row justify-content-center py-4">
+                    <div class="col-auto"> 
+                        <a id="tweet-quote" class="btn btn-primary" target="_top">Tweet</a>
+                        <button id="new-quote" class="btn btn-primary">New Quote</button>
+                    </div>
+                </div>
             </div>
         </div>
     </body>
