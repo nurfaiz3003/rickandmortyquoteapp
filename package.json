@@ -1,0 +1,23 @@
+{
+  "name": "jQuery-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "gh-pages -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nurfaiz3003/rickandmortyquoteapp.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nurfaiz3003/rickandmortyquoteapp/issues"
+  },
+  "homepage": "https://github.com/nurfaiz3003/rickandmortyquoteapp",
+  "dependencies": {
+    "gh-pages": "^3.2.0"
+  }
+}
