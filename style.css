@@ -4,7 +4,7 @@
 }
 
 body {
-    background-image: url("rnm.jpg");
+    background-image: url("static/img/rnm.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position-x: center;
