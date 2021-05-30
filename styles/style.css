@@ -1,10 +1,10 @@
 @font-face {
     font-family: rickAndMorty;
-    src: url("get_schwifty.ttf");
+    src: url("rickandmortyquoteapp/font/get_schwifty.ttf");
 }
 
 body {
-    background-image: url("rnm.jpg");
+    background-image: url("rickandmortyquoteapp/img/rnm.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position-x: center;
