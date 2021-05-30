@@ -1,6 +1,6 @@
 @font-face {
     font-family: rickAndMorty;
-    src: url("get_schwifty.ttf");
+    src: url("static/font/get_schwifty.ttf");
 }
 
 body {
