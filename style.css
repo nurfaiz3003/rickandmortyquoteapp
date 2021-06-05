@@ -43,6 +43,27 @@ body {
     font-family: 'Courier New', Courier, monospace;
 }
 
+#new-quote:hover, #tweet-quote:hover {
+    background-color: #c9d74c;
+    color: #013739;
+}
+
 #and {
     font-size: 3vmin;
+}
+
+#credit {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 2vmin;
+    color: #c9d74c;
+}
+
+a {
+    color: #c9d74c;
+    padding: 0 0.5vmin;
+} 
+
+a:hover {
+    color:#c9d74c;
+    background-color: #013739;
 }
