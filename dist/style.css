@@ -15,10 +15,17 @@ body {
 }
 
 #header-text {
-    font-size: 6vmin;
+    font-size: 7vmin;
     font-family: rickAndMorty;
     color:  #013739;
     text-shadow: 2px 2px 0px #c9d74c;
+}
+
+#quotes-gen {
+    font-size: 3vmin;
+    color:  #013739;
+    text-shadow: 2px 2px 0px #c9d74c;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 #text {
@@ -38,8 +45,7 @@ body {
 #new-quote, #tweet-quote {
     background-color: #013739;
     color: #c9d74c;
-    border: 0px;
-    border-radius: 0%;
+    border-radius: 1vmin;
     font-family: 'Courier New', Courier, monospace;
 }
 
@@ -66,4 +72,30 @@ a {
 a:hover {
     color:#c9d74c;
     background-color: #013739;
+}
+
+@media screen and (orientation: portrait) {
+    #header-text {
+        font-size: 11vmin;
+    }
+
+    #and {
+        font-size: 6vmin;
+    }
+
+    #quotes-gen {
+        font-size: 4vmin;
+    }
+
+    #new-quote, #tweet-quote {
+        font-size: 3vmin;
+        margin: 0px 1vmin;
+        padding: 2vmin;
+        border-radius: 1vmin;
+    }
+
+    #credit {
+        font-size: 3vmin;
+    }
+    
 }
